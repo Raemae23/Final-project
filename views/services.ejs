@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="/css/service.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">Bright Auto Parts Repair</div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contacts">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+
+        <div class="overlay">
+            <h1>Our Services</h1>
+            <p>Trusted Quality for Your Vehicle’s Bright Future</p>
+        </div>
+    </header>
+
+    <section class="services-intro">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <p>
+                Bright Auto Parts Repair and Services leverages technology to streamline automotive repair processes. Our platform is designed to enhance efficiency, reduce errors, and improve customer satisfaction.
+            </p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Offerings</h2>
+            <ul>
+                <li>Automated Appointment Scheduling</li>
+                <li>Real-Time Mechanic Availability Tracking</li>
+                <li>Service History Management</li>
+                <li>Home Visits and Vehicle Pick-Ups</li>
+                <li>Digital Receipts and Notifications</li>
+            </ul>
+            <p>We ensure that all records are accurate, up-to-date, and easily accessible, providing a seamless experience for both customers and administrators.</p>
+        </div>
+    </section>
+
+    <section class="sustainability">
+        <div class="container">
+            <h2>Commitment to Sustainability</h2>
+            <p>
+                By reducing paper usage and promoting digital documentation, we align with global efforts for environmental conservation, all while delivering outstanding service.
+            </p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Experience the Bright Difference?</h2>
+            <p>
+                Join us in redefining automotive repair and maintenance. Book your service today and let us take care of your vehicle like it’s our own.
+            </p>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2024, Bright Auto Parts Repair. All Rights Reserved.</p>
+            <nav>
+                <a href="/">Home</a> |
+                <a href="/about">About</a> |
+                <a href="/services">Services</a> |
+                <a href="/contacts">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const burger = document.querySelector(".burger");
+            const navLinks = document.querySelector(".nav-links");
+    
+            burger.addEventListener("click", () => {
+                navLinks.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>

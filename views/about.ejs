@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/css/about.css">
+</head>
+<body>
+  
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">Bright Auto Parts Repair</div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contacts">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+
+        <div class="overlay">
+            <h1>About Us</h1>
+            <p>Trusted Quality for Your Vehicle's Bright Future.</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>Welcome to Bright Auto Parts Repair</h2>
+            <p>
+                Bright Auto Parts Repair and Services is your trusted partner in maintaining and repairing vehicles with excellence. 
+                Our platform leverages technology to streamline automotive repair processes, enhance operational efficiency, and improve customer satisfaction. 
+                We are committed to providing a seamless experience, ensuring every customer receives reliable and high-quality services.
+            </p>
+        </div>
+    </section>
+    
+    <section class="mission">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is to modernize the automotive repair industry through innovation and dedication. 
+                We aim to provide customers with:
+                <ul>
+                    <li>Automated scheduling and real-time mechanic availability tracking.</li>
+                    <li>Comprehensive service history management for transparency.</li>
+                    <li>Eco-friendly practices that promote sustainability.</li>
+                </ul>
+                At Bright Auto Parts Repair, customer satisfaction drives everything we do.
+            </p>
+        </div>
+    </section>
+    
+    <section class="sustainability">
+        <div class="container">
+            <h2>Our Commitment to Sustainability</h2>
+            <p>
+                Sustainability is at the core of our operations. By minimizing paper usage and promoting digital documentation, 
+                we contribute to global environmental preservation. Our approach not only enhances efficiency but also supports a greener future for our community and the planet.
+            </p>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <div class="container">
+            <h2>Experience the Bright Difference</h2>
+            <p>
+                At Bright Auto Parts Repair and Services, we are passionate about empowering your drive with confidence. 
+                Let us take care of your vehicle while you enjoy a safe and smooth journey. Contact us today to learn more about how we can serve you better!
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2024, Bright Auto Parts Repair. All Rights Reserved.</p>
+            <nav>
+                <a href="/">Home</a> |
+                <a href="/about">About</a> |
+                <a href="/services">Services</a> |
+                <a href="/contacts">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const burger = document.querySelector(".burger");
+            const navLinks = document.querySelector(".nav-links");
+    
+            burger.addEventListener("click", () => {
+                navLinks.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>
